@@ -65,7 +65,7 @@ module.exports = (_, argv) => ({
       name: "host",
       filename: "remoteEntry.js",
       remotes: {
-        remote: `remote@${process.env.DO_MAIN_REMOTE}remoteEntry.js`,
+        remote: `remote@https://mfe-lbr-4px6.vercel.app/remoteEntry.js`,
       },
       exposes: {},
       shared: {
