@@ -9,6 +9,7 @@ const Footer = React.lazy(() => import("remote/Footer"));
 const App = () => (
   <>
     <Suspense fallback={<>Loading...</>}>
+      <h1>Host</h1>
       <Header />
       <Footer />
     </Suspense>
